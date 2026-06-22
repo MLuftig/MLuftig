@@ -5,35 +5,28 @@
 I am an LVT with 15+ years of experience primarilary in emergency/critical care medicine, and I fell in love with exploring data while working on my
 graduate degree which focused heavily on biometry.
 
-📬 **Connect with me:**
-[LinkedIn](URL) | [Medium/Blog](URL) | [Portfolio Website](URL) | [Email](mailto:you@example.com)
+**Connect with me:**
+[LinkedIn](https://www.linkedin.com/in/micah-luftig/) | [Email](m.luftig24@gmail.com)
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 1. [Project Title 1](Link to Repository)
-* **Problem:** [1 sentence on the business problem or research question].
-* **Solution:** Developed a [Algorithm/Model] using [Key Tech] to solve it.
-* **Impact:** Improved [Metric] by **X%** or saved **$Y**.
-* **Tech Stack:** `Python`, `Scikit-Learn`, `Docker`, `AWS`
-
-### 2. [Project Title 2](Link to Repository)
-* **Problem:** [1 sentence on the business problem].
-* **Solution:** [1 sentence on your approach].
-* **Impact:** [Quantifiable metric].
-* **Tech Stack:** `SQL`, `Tableau`, `Pandas`
+### 1. [Animal Shelter Recidivism Prediction](https://github.com)
+* **Problem:** Identifying key risk variables that cause adopted pets to be rapidly returned to local shelter facilities.
+* **Solution:** Developed an end-to-end Python pipeline utilizing SQL joining for feature engineering and a Random Forest classification model.
+* **Impact:** Discovered that length of stay had a 55% predictive impact on canine recidivism within a 30-day window, achieving a 61% model recall rate.
+* **Tech Stack:** `Python`, `SQL`, `Scikit-Learn`, `Pandas`, `Matplotlib`, `Seaborn`
 
 ---
 
-## 🛠️ Technical Toolbox
+## Technical Toolbox
 
 * **Languages:** Python, R, SQL
 * **Libraries:** Pandas, NumPy
-* **Data Engineering & Cloud:** Spark, Docker, AWS (S3, EC2), Airflow
-* **Visualization:** Tableau, PowerBI, Matplotlib, Seaborn
+* **Visualization:** Matplotlib, Seaborn
 
 ---
 
-## 📈 GitHub Statistics
+## GitHub Statistics
 ![Your GitHub Stats](https://vercel.app)
