@@ -1,4 +1,4 @@
-# Hello there.  My name is Micah
+# Micah Luftig
 ### Data Scientist | Licensed Veterinary Technician | MS
 
 <!-- Summary -->
