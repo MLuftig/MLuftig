@@ -26,7 +26,3 @@ graduate degree which focused heavily on biometry.
 * **Libraries:** Pandas, NumPy
 * **Visualization:** Matplotlib, Seaborn
 
----
-
-## GitHub Statistics
-![Your GitHub Stats](https://vercel.app)
