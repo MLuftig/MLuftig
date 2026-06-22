@@ -18,7 +18,7 @@ graduate degree which focused heavily on biometry.
 * **Impact:** Discovered that length of stay had a 55% predictive impact on canine recidivism, enabling the pipeline to achieve a 61% model recall rate to catch true risk cases.
 * **Tech Stack:** `Python`, `SQL`, `Scikit-Learn`, `Pandas`, `Matplotlib`, `Seaborn`
 
-### 2. [Environmental and Lunar Influences on Shelter Volume](https://github.com)
+### 2. [Environmental and Lunar Influences on Shelter Volume](https://github.com/MLuftig/moon-phase-weather-shelter-analysis)
 * **Problem:** Myth-busting the long-held veterinary belief that lunar cycles impact patient surge volumes, while isolating real weather triggers.
 * **Solution:** Built a multi-layer SQL data engineering extraction pipeline in Python to merge historical shelter data with localized climatology logs.
 * **Impact:** Debunked the "Full Moon Effect" via robust non-parametric Kruskal-Wallis testing and isolated barometric pressure drops as highly statistically significant (p = 2.58e-23) volume drivers.
