@@ -12,7 +12,7 @@ graduate degree which focused heavily on biometry.
 
 ## Featured Projects
 
-### 1. [Animal Shelter Recidivism Prediction] ([https://github.com/MLuftig/animal-shelter-recidivism-prediction])
+### 1. [Animal Shelter Recidivism Prediction](https://github.com/MLuftig/animal-shelter-recidivism-prediction)
 * **Problem:** Identifying key risk variables that cause adopted pets to be rapidly returned to local shelter facilities within a 30-day window.
 * **Solution:** Developed an end-to-end Python pipeline utilizing SQL joining for feature engineering and an optimized Random Forest classification model.
 * **Impact:** Discovered that length of stay had a 55% predictive impact on canine recidivism, enabling the pipeline to achieve a 61% model recall rate to catch true risk cases.
