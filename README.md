@@ -1,8 +1,8 @@
 # Hello there.  My name is Micah
-### Data Scientist | Liscensed Veterinary Technician | MS
+### Data Scientist | Licensed Veterinary Technician | MS
 
 <!-- Summary -->
-I am an LVT with 15+ years of experience primarilary in emergency/critical care medicine, and I fell in love with exploring data while working on my
+I am an LVT with 15+ years of experience primarily in emergency/critical care medicine, and I fell in love with exploring data while working on my
 graduate degree which focused heavily on biometry.
 
 **Connect with me:**
