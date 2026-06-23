@@ -6,7 +6,7 @@ I am an LVT with 15+ years of experience primarily in emergency/critical care me
 graduate degree which focused heavily on biometry.
 
 **Connect with me:**
-[LinkedIn](https://www.linkedin.com/in/micah-luftig/) | [Email](m.luftig24@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/micah-luftig/) | [Email](mailto:m.luftig24@gmail.com)
 
 ---
 
