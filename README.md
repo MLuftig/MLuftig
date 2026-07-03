@@ -23,6 +23,11 @@ graduate degree which focused heavily on biometry.
 * **Impact:** Debunked the "Full Moon Effect" via robust non-parametric Kruskal-Wallis testing and isolated barometric pressure drops as highly statistically significant (p = 2.58e-23) volume drivers.
 * **Tech Stack:** `Python`, `SQL`, `SciPy`, `Pandas`, `Matplotlib`, `Seaborn`
 
+#### 3. [Yelp Veterinary Data Pipeline and NLP Sentiment Mining]([https://github.com](https://github.com/MLuftig/yelp-veterinary-sentiment-pipeline))
+* **Description:** An engineering pipeline that streams multi-gigabyte JSON datasets via chunked memory optimization to extract niche industry vectors and analyze consumer feedback.
+* **Technical Stack:** Python, Jupyter, Pandas, Scikit-Learn, Matplotlib, NLTK.
+* **Core Contribution:** Engineered a memory-efficient processing pipeline using O(1) set lookups, text tokenization, and a mathematical TF-IDF delta curve to isolate and visualize structural drivers of customer satisfaction.
+
 ---
 
 ## Technical Toolbox
