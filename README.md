@@ -44,5 +44,5 @@ graduate degree which focused heavily on biometry.
 ## Technical Toolbox
 
 - **Languages:** Python, SQL (SQLite, PostgreSQL)
-- **Libraries & Frameworks:** Pandas, NumPy, Scikit-Learn, SciPy, Seaborn, Matplotlib, NLTK
-- **Core Competencies:** Relational Database Joins, Non-Parametric
+- **Libraries & Frameworks:** Pandas, NumPy, Scikit-Learn, SciPy, Seaborn, Matplotlib, NLTK, Streamlit
+- **Core Competencies:** Relational Database Joins, Non-Parametric Hypothesis Testing
