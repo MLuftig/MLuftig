@@ -32,6 +32,13 @@ graduate degree which focused heavily on biometry.
 - **Impact:** Identified billing/communication breakdowns (*"charged," "rude," "told," "money"*) as the dominant drivers of negative reviews, versus staff compassion and expertise (*"knowledgeable," "compassionate," "highly recommend"*) driving positive ones — visualized in a diverging bar chart for quick interpretation.
 - **Tech Stack:** `Python`, `Jupyter`, `Pandas`, `NLTK`, `Scikit-Learn`, `Matplotlib`
 
+### 4. [Shelter Return Risk Predictor](https://github.com/MLuftig/shelter-risk-predictor)
+
+- **Problem:** Making the shelter recidivism model actually usable by shelter staff, not just readable in a notebook.
+- **Solution:** Built an interactive Streamlit app that loads the trained Random Forest model and lets users adjust length of stay, age, species, breed group, and intake reason to see a live return-risk prediction.
+- **Impact:** Turns a static ML model into a tool a non-technical shelter worker could use directly — try it live: [shelter-risk-predictor.streamlit.app](https://shelter-risk-predictor.streamlit.app/)
+- **Tech Stack:** `Python`, `Streamlit`, `Scikit-Learn`, `Pandas`, `Joblib`
+
 ---
 
 ## Technical Toolbox
