@@ -39,6 +39,12 @@ graduate degree which focused heavily on biometry.
 - **Impact:** Turns a static ML model into a tool a non-technical shelter worker could use directly — try it live: [shelter-risk-predictor.streamlit.app](https://shelter-risk-predictor.streamlit.app/)
 - **Tech Stack:** `Python`, `Streamlit`, `Scikit-Learn`, `Pandas`, `Joblib`
 
+### 5. [Shelter Overflow Risk Forecaster](https://github.com/MLuftig/shelter-overflow-forecaster)
+
+- **Problem:** Knowing that barometric pressure drops significantly affect shelter intake (per the moon-phase analysis) doesn't tell a shelter director how much operational risk that actually creates.
+- **Solution:** Built a Monte Carlo simulation combining a two-component gamma mixture model of length-of-stay (capturing both typical short stays and a long-tail of hard-to-place animals) with a Negative Binomial regression quantifying the weather-intake relationship, to estimate real-time overflow risk from a 7-day pressure forecast.
+- **Impact:** At a capacity near the shelter's steady-state population, a forecasted storm system nearly doubled the probability of at least one overflow day (34% → 61%) — and revealed that weather-driven risk is sharpest when capacity is already tight, disappearing almost entirely with sufficient buffer. Deployed as a live interactive tool: try it at [shelter-overflow-forecaster.streamlit.app](https://shelter-overflow-forecaster.streamlit.app/)
+- **Tech Stack:** `Python`, `NumPy`, `SciPy`, `Streamlit`
 ---
 
 ## Technical Toolbox
