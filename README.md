@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30204539/README.md)
 # Micah Luftig
 
 ### Data Scientist | Licensed Veterinary Technician | MS
