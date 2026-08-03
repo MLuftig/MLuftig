@@ -57,6 +57,13 @@ graduate degree which focused heavily on biometry.
 - **Impact:** Gives shelter staff a proactive, adjustable weekly usage estimate compared against current stock on hand, flagging likely shortages before they happen — and confirmed the weather-mortality relationship independently replicates at a second, much smaller shelter in a different climate, unlike a related recidivism model that didn't transfer well. Try it live: [shelter-supply-forecaster.streamlit.app](https://shelter-supply-forecaster.streamlit.app/)
 - **Tech Stack:** `Python`, `NumPy`, `SciPy`, `Requests`, `Streamlit`
 
+### 7. [Pet Insurance Claims Prediction & Cost Simulator](https://github.com/MLuftig/pet-insurance-claims-prediction)
+
+- **Problem:** Testing whether real, cited veterinary breed-disease research can meaningfully improve pet insurance pricing beyond flat demographic factors (species/breed/age), and making the answer usable at both the individual-pet and portfolio-reserving level.
+- **Solution:** Built a breed-predisposition lookup table sourced entirely from cited veterinary literature (not folk knowledge), tested it in a calibrated Random Forest hurdle model, caught and corrected a probability-calibration bug (the same class of issue previously found in the shelter recidivism model), then pivoted to a Monte Carlo portfolio simulation and a deployed individual-pet cost simulator.
+- **Impact:** Found a real, honest ceiling on individual-level prediction (AUC 0.58) — age and species dominate, and most flagged conditions are late-onset chronic disease that wouldn't be expected to drive first-year claims. The same calibrated model, applied at the portfolio level, forecasts total annual cost within **0.04%** of real historical data. At the individual level, the deployed app surfaces a genuinely counterintuitive finding: for most pets, the most likely first-year outcome is $0 — not a weak result, but the actual statistical shape of why insurance exists, paired transparently with a real, quantified worst-case tail. Try it live: [pet-insurance-cost-simulator.streamlit.app](https://pet-insurance-cost-simulator.streamlit.app/)
+- **Tech Stack:** `Python`, `Scikit-Learn`, `SciPy`, `Streamlit`, `Matplotlib`, `Joblib`
+
 ---
 
 ## Technical Toolbox
