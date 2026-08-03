@@ -58,6 +58,7 @@ graduate degree which focused heavily on biometry.
 - **Tech Stack:** `Python`, `NumPy`, `SciPy`, `Requests`, `Streamlit`
 
 ### 7. [Pet Insurance Claims Prediction & Cost Simulator](https://github.com/MLuftig/pet-insurance-claims-prediction)
+*First project applying this portfolio's core techniques (Monte Carlo simulation, calibration correction, real-data verification) outside the animal shelter domain.*
 
 - **Problem:** Testing whether real, cited veterinary breed-disease research can meaningfully improve pet insurance pricing beyond flat demographic factors (species/breed/age), and making the answer usable at both the individual-pet and portfolio-reserving level.
 - **Solution:** Built a breed-predisposition lookup table sourced entirely from cited veterinary literature (not folk knowledge), tested it in a calibrated Random Forest hurdle model, caught and corrected a probability-calibration bug (the same class of issue previously found in the shelter recidivism model), then pivoted to a Monte Carlo portfolio simulation and a deployed individual-pet cost simulator.
