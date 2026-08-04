@@ -74,7 +74,7 @@ graduate degree which focused heavily on biometry.
 
 ## Apps
 
-### 8. [Pet Insurance Cost Simulator](https://github.com/MLuftig/pet-insurance-cost-simulator)
+### 8. [Pet Insurance Cost Simulator](https://github.com/MLuftig/pet_insurance_cost_simulator)
 
 - **Problem:** Making the risk model above usable by an individual, not just a portfolio-level reserving exercise.
 - **Solution:** Built an interactive Streamlit app that runs the same calibrated model and Monte Carlo method against a single user-specified pet profile (species, breed, age), showing a real cost-range simulation — typical/worst-case/extreme-worst-case scenarios — plus how that range shifts across the pet's lifetime.
