@@ -81,10 +81,17 @@ graduate degree which focused heavily on biometry.
 - **Impact:** Surfaces a genuinely counterintuitive finding directly to a user: for most pets, the most likely first-year outcome is $0 — not a weak result, but the actual statistical shape of why insurance exists, paired transparently with a real, quantified worst-case tail. Try it live: [pet-insurance-cost-simulator.streamlit.app](https://pet-insurance-cost-simulator.streamlit.app/)
 - **Tech Stack:** `Python`, `Streamlit`, `Scikit-Learn`, `Joblib`, `Matplotlib`
 
+### 9. [Pet Insurance Portfolio Dashboard](https://github.com/MLuftig/insurance_dashboard)
+
+- **Problem:** Every tool above answers a single-case question (one pet, one prediction) — there was no way to see the portfolio's findings together, at a glance, the way a reserving or pricing team actually needs to.
+- **Solution:** Built a multi-panel Streamlit dashboard reusing the same calibrated model and validated computations from the analysis repo — population breakdown, real claim severity distribution, the Monte Carlo portfolio forecast as an interactive chart, the breed-level pricing audit as a color-coded bar chart, and Kaplan-Meier survival curves — all on one screen, nothing recalculated with different assumptions.
+- **Impact:** Turns five separate, text-heavy findings into a single interactive view a stakeholder could actually explore — try it live: [insurance-portfolio-dashboard.streamlit.app](https://insurance-portfolio-dashboard.streamlit.app/)
+- **Tech Stack:** `Python`, `Streamlit`, `Plotly`, `Scikit-Learn`, `Joblib`, `lifelines`
+
 ---
 
 ## Technical Toolbox
 
 - **Languages:** Python, SQL (SQLite, PostgreSQL)
-- **Libraries & Frameworks:** Pandas, NumPy, Scikit-Learn, SciPy, Statsmodels, Seaborn, Matplotlib, Plotnine, NLTK, Streamlit, Joblib, lifelines
+- **Libraries & Frameworks:** Pandas, NumPy, Scikit-Learn, SciPy, Statsmodels, Seaborn, Matplotlib, Plotly, Plotnine, NLTK, Streamlit, Joblib, lifelines
 - **Core Competencies:** Relational Database Joins, Non-Parametric & Multivariate Hypothesis Testing, Monte Carlo Simulation, Probability Calibration, Survival Analysis
