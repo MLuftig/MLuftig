@@ -9,7 +9,7 @@ Connect with me: [LinkedIn](https://www.linkedin.com/in/micah-luftig) | m.luftig
 
 ### Projects
 
-**1. Animal Shelter Recidivism Prediction**
+**1. [Animal Shelter Recidivism Prediction](https://github.com/MLuftig/animal-shelter-recidivism-prediction)**
 
 **Problem:** Identifying key risk variables that cause adopted pets to be rapidly returned to local shelter facilities within a 30-day window.
 
@@ -19,7 +19,7 @@ Connect with me: [LinkedIn](https://www.linkedin.com/in/micah-luftig) | m.luftig
 
 **Tech Stack:** Python, SQL, Scikit-Learn, Pandas, Matplotlib, Seaborn
 
-**2. Environmental and Lunar Influences on Shelter Volume**
+**2. [Environmental and Lunar Influences on Shelter Volume](https://github.com/MLuftig/moon-phase-weather-shelter-analysis)**
 
 **Problem:** Myth-busting the long-held veterinary belief — one I personally heard repeated throughout 15+ years of ER practice — that lunar cycles impact patient surge volumes, while isolating real weather triggers for both intake volume and shelter mortality.
 
@@ -29,7 +29,7 @@ Connect with me: [LinkedIn](https://www.linkedin.com/in/micah-luftig) | m.luftig
 
 **Tech Stack:** Python, SQL, SciPy, Statsmodels, Pandas, Matplotlib, Seaborn, Plotnine
 
-**3. Yelp Veterinary Data Pipeline and NLP Sentiment Mining**
+**3. [Yelp Veterinary Data Pipeline and NLP Sentiment Mining](https://github.com/MLuftig/yelp-veterinary-sentiment-pipeline)**
 
 **Problem:** Extracting meaningful sentiment signals from the multi-gigabyte Yelp Open Dataset to identify what drives customer satisfaction in the veterinary industry.
 
@@ -41,7 +41,7 @@ Connect with me: [LinkedIn](https://www.linkedin.com/in/micah-luftig) | m.luftig
 
 ### Apps
 
-**4. Shelter Return Risk Predictor**
+**4. [Shelter Return Risk Predictor](https://github.com/MLuftig/shelter-risk-predictor)**
 
 **Problem:** Making the shelter recidivism model actually usable by shelter staff, not just readable in a notebook.
 
@@ -51,7 +51,7 @@ Connect with me: [LinkedIn](https://www.linkedin.com/in/micah-luftig) | m.luftig
 
 **Tech Stack:** Python, Streamlit, Scikit-Learn, Pandas, Joblib
 
-**5. Shelter Overflow Risk Forecaster**
+**5. [Shelter Overflow Risk Forecaster](https://github.com/MLuftig/shelter-overflow-forecaster)**
 
 **Problem:** Shelter intake volume is inherently random, and prior work in this portfolio (the moon-phase & weather analysis) identified that "feels-like"/average temperature is a statistically significant driver of intake surges — but a p-value alone doesn't tell a shelter director how much that actually matters operationally, or whether a model built at one shelter reflects another.
 
@@ -61,7 +61,7 @@ Connect with me: [LinkedIn](https://www.linkedin.com/in/micah-luftig) | m.luftig
 
 **Tech Stack:** Python, NumPy, SciPy, Requests, Streamlit
 
-**6. Shelter Medical Supply Forecaster**
+**6. [Shelter Medical Supply Forecaster](https://github.com/MLuftig/shelter-supply-forecaster)**
 
 **Problem:** Shelter medical supply ordering is typically reactive — staff notice euthanasia-related consumables running low rather than anticipating demand ahead of time, and it's unclear whether a weather-mortality relationship found at one shelter would hold at another.
 
@@ -77,7 +77,7 @@ Applying this portfolio's core techniques — Monte Carlo simulation, probabilit
 
 ### Projects
 
-**7. Pet Insurance Risk & Pricing Analysis**
+**7. [Pet Insurance Risk & Pricing Analysis](https://github.com/MLuftig/pet-insurance-risk-and-pricing-analysis)**
 
 **Problem:** Testing whether real, cited veterinary breed-disease research can meaningfully improve pet insurance pricing beyond flat demographic factors (species/breed/age), and whether the current premium structure actually tracks risk.
 
@@ -89,7 +89,7 @@ Applying this portfolio's core techniques — Monte Carlo simulation, probabilit
 
 ### Apps
 
-**8. Pet Insurance Cost Simulator**
+**8. [Pet Insurance Cost Simulator](https://github.com/MLuftig/pet_insurance_cost_simulator)**
 
 **Problem:** Making the risk model above usable by an individual, not just a portfolio-level reserving exercise.
 
@@ -99,7 +99,7 @@ Applying this portfolio's core techniques — Monte Carlo simulation, probabilit
 
 **Tech Stack:** Python, Streamlit, Scikit-Learn, Joblib, Matplotlib
 
-**9. Pet Insurance Portfolio Dashboard**
+**9. [Pet Insurance Portfolio Dashboard](https://github.com/MLuftig/insurance_dashboard)**
 
 **Problem:** Every tool above answers a single-case question (one pet, one prediction) — there was no way to see the portfolio's findings together, at a glance, the way a reserving or pricing team actually needs to.
 
@@ -115,7 +115,7 @@ Applying this portfolio's core habit — testing whether a clean, intuitive stor
 
 ### Projects
 
-**10. Did COVID Create a Durable Shift in the Pet Economy? (Retail, Insurance, Food & Diagnostics)**
+**10. [Did COVID Create a Durable Shift in the Pet Economy? (Retail, Insurance, Food & Diagnostics)](https://github.com/MLuftig/veterinary-financial-markers)**
 
 **Problem:** Testing whether pandemic-era demand shifts across the pet economy — retail (Chewy/Petco), insurance (Trupanion), food (Hill's), and veterinary diagnostics (IDEXX) — represent a lasting structural change or a temporary shock that mostly reverted, and whether the stock market itself believes the shift stuck.
 
