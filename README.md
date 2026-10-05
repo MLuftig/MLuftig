@@ -17,7 +17,11 @@ I am an LVT with 15+ years of experience primarily in emergency/critical care me
 
 **Impact:** Evaluated on fictional cases with planted errors written from 15+ years of ER/critical care experience: every medication line matched the doctor's orders, no unordered drug reached an owner, missing frequencies were flagged instead of invented, and the code check caught both planted dosing errors, including a dropped zero (600 mg → 60 mg). In one run, the check caught the model altering a medication line, sent it back, and the corrected draft passed. Known limitations are documented rather than glossed over.
 
-**Tech Stack:** Python, Anthropic Claude API (tool calling), Jupyter
+**Version 2:** a live Streamlit app that starts from a speech-to-text recording of morning rounds, with no speaker labels, conversation jumping between patients, and mistranscribed drug names. It sorts every statement to the right patient, flags hedges and possible transcription errors instead of guessing, and grades its own accuracy against technician-written summaries.
+
+**Live demo:** [vet-notes.streamlit.app](https://vet-notes.streamlit.app/) (password-protected; access available on request)
+
+**Tech Stack:** Python, Anthropic Claude API (tool calling), Streamlit, Jupyter
 
 ---
 
